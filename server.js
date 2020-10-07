@@ -8,7 +8,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use('/songdata/1', createProxyMiddleware({
+app.use('/songdata/', createProxyMiddleware({
   target: 'http://localhost:1000',
   headers: {
     method: 'GET'
