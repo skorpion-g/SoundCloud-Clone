@@ -22,7 +22,7 @@ app.use('/relatedTracks/', createProxyMiddleware({
 }))
 
 app.use('/artistBio/', createProxyMiddleware({
-  target: 'http://34.220.154.45/2000',
+  target: 'http://34.220.154.45:2000',
   changeOrigin: true
 }))
 
