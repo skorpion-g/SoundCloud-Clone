@@ -26,6 +26,11 @@ app.use('/artistBio/', createProxyMiddleware({
   changeOrigin: true
 }))
 
+app.use('/songDescription/', createProxyMiddleware({
+  target: 'http://54.191.20.103:2001/',
+  changeOrigin: true
+}))
+
 app.use('/hashtags/', createProxyMiddleware({
   target: 'http://18.189.26.97:4001/',
   changeOrigin: true
