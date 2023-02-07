@@ -8,3 +8,6 @@
 ### Frontend: JavaScript, Node.js, React.js, HTML5/CSS3
 ### Backend: AWS EC2, AWS S3, mySQL, redis, NGINX
 ### Webtools: New Relic, k2
+
+## Video Explanation:
+https://drive.google.com/file/d/1KRxWU5W407iMxVTXR52yz5Zro1_buiS3/view?usp=share_link
